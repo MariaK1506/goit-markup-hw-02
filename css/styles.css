@@ -81,4 +81,8 @@ ul {
 .card-text {
   color: var(--secondary-text-color);
 }
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--accent-color);
+}
 /* СТИЛИ ДЛЯ portfolio.html */
