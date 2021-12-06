@@ -2,8 +2,9 @@
 
 :root {
   --primary-text-color: #212121;
+  --secondary-text-color: #757575;
   --accent-color: #2196f3;
-  --background-color: #FFFFFF;
+  --background-color: #ffffff;
 }
 body {
   background-color: var(--background-color);
@@ -15,11 +16,11 @@ ul {
 
 .logo {
   color: #000000;
-  }
+}
 
-  .logo-color {
-    color: var(--accent-color)
-  }
+.logo-color {
+  color: var(--accent-color);
+}
 
 /* Site-nav */
 
@@ -31,24 +32,23 @@ ul {
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.site-nav .link-current {
   color: var(--accent-color);
 }
 
 .contact-nav .link {
-  color: #757575
+  color: var(--secondary-text-color);
 }
 .contact-nav .link:hover,
 .contact-nav .link:active {
   color: var(--accent-color);
 }
 
+/* Hero */
 
-  /* Hero */
-  
-  .button-primary {
-    background-color: var(--accent-color);
-    color: var(--background-color)
+.button-primary {
+  background-color: var(--accent-color);
+  color: var(--background-color);
 }
 /* Section */
 
@@ -61,11 +61,24 @@ ul {
   color: var(--primary-text-color);
 }
 .feature-list .title-text {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 /* Examples of work */
 
-.
+/* Footer */
 
+.footer {
+  background-color: #2f303a;
+  color: var(--background-color);
+}
+.logo-footer {
+  color: var(--background-color);
+}
+.footer-address {
+  color: rgba(255, 255, 255, 0.6);
+}
+.card-text {
+  color: var(--secondary-text-color);
+}
 /* СТИЛИ ДЛЯ portfolio.html */
