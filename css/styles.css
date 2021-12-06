@@ -1,3 +1,5 @@
+/* СТИЛИ ДЛЯ index.html */
+
 :root {
   --primary-text-color: #212121;
   --accent-color: #2196f3;
@@ -13,7 +15,11 @@ ul {
 
 .logo {
   color: #000000;
-}
+  }
+
+  .logo-color {
+    color: var(--accent-color)
+  }
 
 /* Site-nav */
 
@@ -25,9 +31,22 @@ ul {
   color: var(--accent-color);
 }
 
-/* Hero */
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 
-.button-primary {
+.contact-nav .link {
+  color: #757575
+}
+.contact-nav .link:hover,
+.contact-nav .link:active {
+  color: var(--accent-color);
+}
+
+
+  /* Hero */
+  
+  .button-primary {
     background-color: var(--accent-color);
     color: var(--background-color)
 }
@@ -48,3 +67,5 @@ ul {
 /* Examples of work */
 
 .
+
+/* СТИЛИ ДЛЯ portfolio.html */
