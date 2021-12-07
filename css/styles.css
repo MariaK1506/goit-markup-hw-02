@@ -86,3 +86,13 @@ ul {
   color: var(--accent-color);
 }
 /* СТИЛИ ДЛЯ portfolio.html */
+
+.projects-lists .button-current {
+  color: var(--accent-color);
+}
+
+.projects-cards .projects-cards-title {
+  color: var(--primary-text-color);
+}
+.projects-cards .projects-cards-text {
+  color: var(--secondary-text-color)
