@@ -17,10 +17,10 @@ ul {
 .logo {
   color: #000000;
 }
-
-.logo-color {
-  color: var(--accent-color);
+.logo > span {
+  color: var(--accent-color)
 }
+
 
 /* Site-nav */
 
@@ -74,6 +74,9 @@ ul {
 }
 .logo-footer {
   color: var(--background-color);
+}
+.logo-footer > span {
+  color: var(--accent-color);
 }
 .footer-address {
   color: rgba(255, 255, 255, 0.6);
