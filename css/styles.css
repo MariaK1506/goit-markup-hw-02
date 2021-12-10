@@ -21,6 +21,7 @@ ul {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo > span {
@@ -35,6 +36,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:active {
@@ -43,6 +45,7 @@ ul {
 
 .site-nav .link-current {
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 .contact-nav .link {
@@ -51,6 +54,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contact-nav .link:hover,
 .contact-nav .link:active {
@@ -144,6 +148,7 @@ footer {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71x;
+  text-decoration: none;
 }
 
 .footer .link:hover,
@@ -175,6 +180,9 @@ footer {
   text-align: center;
 }
 
+.projects-cards .link {
+  text-decoration: none;
+}
 .projects-cards .title {
   color: var(--primary-text-color);
   font-weight: 700;
